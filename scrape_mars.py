@@ -68,7 +68,7 @@ def scrape():
 
     browser.quit()
 
-    mars_weather = mars_twitter[3].text
+    mars_weather = mars_twitter[0].text
     # print(mars_weather[0].text)
 
     # # Mars Facts
